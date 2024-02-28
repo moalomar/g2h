@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang='en'>
+
+    <head>
+
+        <title>G2H</title>
+
+        <meta charset='UTF-8'>
+
+        <link href='../static/style.css' rel='stylesheet'>
+
+        <script src="../static/htmx.min.js"></script>
+
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    </head>
+
+    <body>
+
+        <h1>GREGORIAN<br>TO HIJRI</h1>
+
+        <p>pick a date</p>
+
+        <input name='date' type='date' hx-trigger='change' hx-post='/main' hx-target='p' hx-swap="outterHTML">
+
+    </body>
+
+</html>
