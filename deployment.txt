@@ -2,3 +2,5 @@ pythonanywhere.com
 
   username: g2h
   password: 123qweASD#
+
+deployed @ https://g2h.pythonanywhere.com
