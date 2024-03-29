@@ -1,3 +1,0 @@
-cd pycharmProjects/G2H
-docker build -t g2h .
-docker run -d -p 80:80 g2h
